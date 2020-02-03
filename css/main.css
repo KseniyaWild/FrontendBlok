@@ -1,0 +1,27 @@
+/* ul > li селектор прямого потомка */
+/* p + h1 color red селектор соседнего потомка, красным окрасится только h1 */
+
+.main-title p {
+  color: #30a3f0;
+}
+
+.main-title h1 {
+  color: #fff;
+}
+
+.btn {
+  color: #30a3f0;
+}
+
+.nav__link {
+  color: #444;
+}
+
+.nav__link.active {
+  color: #30a3f0;
+}
+
+.info__item,
+.info__link {
+  color: rgba(255, 255, 255, 0.3);
+}
