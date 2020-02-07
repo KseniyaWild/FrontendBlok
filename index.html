@@ -5,150 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Lesson 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
-      <div>
-        <ul class class="info">
-          <li class="info__item">
-            Have any questions?
-          </li>
-          <li class="info__item">
-            <a class="info__link" href="mailto:support@example.com">support@example.com</a>
-          </li>
-          <li class="info__item">
-            <a class="info__link" href="tel:+1814251152">+1 814 251 152</a>
-          </li>
-        </ul>
-        <ul class="info">
-          <li class="info__item">
-            <a class="info__link" href="#">
-              Login
+      <div class="header">
+        <div class="wrapper">
+          <div class="nav-top">
+            <ul class="info info-left">
+              <li class="info__item">
+                Have any questions?
+              </li>
+              <li class="info__item">
+                <a class="info__link" href="mailto:support@example.com">support@example.com</a>
+              </li>
+              <li class="info__item">
+                <a class="info__link" href="tel:+1814251152">+1 814 251 152</a>
+              </li>
+            </ul>
+            <ul class="info info-right">
+              <li class="info__item">
+                <a class="info__link" href="#">
+                  Login
+                </a>
+              </li>
+              <li class="info__item">
+                <a class="info__link" href="#">
+                  Register
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="head">
+            <img src="img/logo.svg" alt="StepUp" />
+            <nav>
+              <ul class="nav" >
+                <li class="nav__item">
+                  <a class="nav__link active" href="">
+                    Home
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Page
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Portfolio
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Blog
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Shop
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Shortcodes
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Features
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <button></button>
+                </li>
+                <li>
+                  <button></button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="element element-top"></div>
+          <div class="main-title">
+            <p>Quickly Setup Your Website</p>
+            <h1>Stepup is designed specially for Startups</h1>
+            <div class="element element-bottom"></div>
+          </div>
+          <p class="center">
+            <a class="btn" href="#">
+              Buy now !
             </a>
-          </li>
-          <li class="info__item">
-            <a class="info__link" href="#">
-              Register
-            </a>
-          </li>
-        </ul>
+          </p>
+          <!--<form action="">
+            <label for="">Имя</label>
+            (тег для чего конкретно инпут (заголовок)) 
+            <input type="text" />
+            <label for="">Фамилия</label>
+            <input type="text" placeholder="Например: Иванов" />
+            <label for="">Email</label>
+            <input type="email" value="example@mail." />
+            <label for="">Опиши суть проблемы</label>
+            <textarea name="" id=""></textarea>
+            <button type="submit">Отправить!</button>
+          </form> -->
+        </div>
       </div>
-      <img src="img/logo.svg" alt="StepUp" />
-      <nav>
-        <ul class="nav" >
-          <li class="nav_item">
-            <a class="nav__link active" href="">
-              Home
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Page
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Portfolio
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Blog
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Shop
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Shortcodes
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Features
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="">
-              Contact
-            </a>
-          </li>
-          <li>
-            <button></button>
-          </li>
-          <li>
-            <button></button>
-          </li>
-        </ul>
-      </nav>
-      <div class="main-title">
-        <p>Quickly Setup Your Website</p>
-        <h1>Stepup is designed specially for Startups</h1>
-      </div>
-      <a class="btn" href="#">
-        Buy now !
-      </a>
-      <form action="">
-        <label for="">Имя</label>
-        <!--тег для чего конкретно инпут (заголовок)-->
-        <input type="text" />
-        <label for="">Фамилия</label>
-        <input type="text" placeholder="Например: Иванов" />
-        <label for="">Email</label>
-        <input type="email" value="example@mail." />
-        <label for="">Опиши суть проблемы</label>
-        <textarea name="" id=""></textarea>
-        <button type="submit">Отправить!</button>
-      </form>
     </header>
     <main>
-      <div>
-        <div>
-          <h2>100% Responsive Design</h2>
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin.
-          </p>
-        </div>
-        <div>
-          <h2>Unlimited Features</h2>
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin.
-          </p>
-        </div>
-        <div>
-          <h2>Fully Customizable</h2>
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin.
-          </p>
+      <div class="page page-line">
+        <div class="wrapper">
+          <div class="box center">
+            <div class="box__item">
+              <h2>100% Responsive Design</h2>
+              <p class="box__text text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                velit auctor aliquet. Aenean sollicitudin.
+              </p>
+            </div>
+            <div class="box__item box__item_center">
+              <h2>Unlimited Features</h2>
+              <p class="box__text text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                velit auctor aliquet. Aenean sollicitudin.
+              </p>
+            </div>
+            <div class="box__item">
+              <h2>Fully Customizable</h2>
+              <p class="box__text text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                velit auctor aliquet. Aenean sollicitudin.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div>
-        <div>
-          <span>About Our Company</span>
-          <h2>Who We Are?</h2>
+      <div class="wrapper">
+        <div class="company">
+          <h2 class="company__title"><span>About Our Company</span>Who We Are?</h2>
           <div></div>
-          <p>
+          <p class="company__text text">
             Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
             lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
             sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
             amet mauris.
           </p>
-          <p>
+          <p class="company__text text">
             Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
             taciti sociosqu ad litora torquent per conubia nostra, per inceptos.
           </p>
           <ul>
-            <li>
+            <li class="company__list">
               Simplify compelling innovation and long-term high.
             </li>
-            <li>
+            <li class="company__list">
               Quickly streamline focused deliverables whereas progressive.
             </li>
           </ul>
@@ -157,6 +171,13 @@
         <img src="img/mockup.png" alt="gadgets" />
       </div>
     </main>
+    <section class="wrapper portfolio">
+      <h2 class="portfolio__title"><span>See Portfolio</span>Recent Works</h2>
+      <div></div>
+      <p class="portfolio__text text">
+        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.
+      </p>
+    </section>
     <footer></footer>
   </body>
 </html>
