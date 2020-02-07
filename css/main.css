@@ -7,6 +7,7 @@ body {
 }
 
 .header {
+  background-image: url(../img/bg.jpg);
   padding-bottom: 214px;
 }
 
@@ -75,7 +76,6 @@ body {
 
 .nav__link:hover {
   color: #30a3f0;
-  border: 1px solid #30a3f0;
   border-radius: 5px;
 }
 
@@ -100,9 +100,11 @@ body {
 .main-title h1 {
   font-size: 45px;
   max-width: 720px;
+  color: #fff;
   margin: 0 auto;
   font-weight: 800;
   text-transform: uppercase;
+  line-height: 60px;
 }
 
 .element {
@@ -131,10 +133,19 @@ body {
   padding: 18px 42px 16px;
 }
 
+.btn:hover {
+  background-color: #30a3f0;
+  color: #fff;
+}
+
 .info__item,
 .info__link {
   font-size: 14px;
-  /* color: rgba(255, 255, 255, 0.3); */
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.info__link:hover {
+  color: #30a3f0;
 }
 
 .page-line {
@@ -165,13 +176,27 @@ body {
 }
 
 .company__title {
+  font-family: "Raleway", sans-serif;
   font-size: 30px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 .company__title span {
   font-size: 16px;
+  font-weight: 400;
   color: #30a3f0;
+  display: block;
+  text-transform: initial;
+  margin-bottom: 18px;
+}
+
+.line {
+  width: 53px;
+  height: 16px;
+  display: block;
+  background-image: url(../img/line.svg);
+  background-repeat: no-repeat;
 }
 
 .text {
