@@ -1,5 +1,8 @@
 /* ul > li селектор прямого потомка */
-/* p + h1 color red селектор соседнего потомка, красным окрасится только h1 */
+/* p + h1 color red селектор соседнего потомка, красным окрасится только h1 ;
+псевдокласс :focus {outline:none} убрать тень при наведении на инпут и баттон;
+p:first-child last nth-child(3) nth-child(2n) nth-child(2n+1) первый последний третий чётные значения нечётные значения элемент 
+::before псевдоэлемент*/
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -30,22 +33,46 @@ body {
 .info {
   display: flex;
   padding-left: 0;
-  list-style-type: none; /*убрать точки у меню*/
+  list-style-type: none;
+  /*убрать точки у меню*/
 }
 
-.info__item {
-}
+.info__item {}
 
 .info-left .info__item {
   margin-right: 32px;
 }
 
 .info-right .info__item {
-  margin-left: 17px;
+  margin-left: 6px;
 }
 
 .info__link {
   text-decoration: none;
+}
+
+.info__link svg {
+  color: #30a3f0;
+  margin-right: 11px;
+}
+
+.registr::before {
+  content: '/';
+  margin-right: 6px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.nav-btn svg {
+  color: #444;
+}
+
+.logo {
+  width: 158px;
 }
 
 .head {
@@ -67,11 +94,16 @@ body {
   margin-left: 8px;
 }
 
+.nav-item-btn {
+  margin-left: 21px;
+}
+
 .nav__link {
   color: #444;
   text-decoration: none;
   padding: 10px 19px 11px;
-  border: 1px solid transparent; /* transparent это прозрачность*/
+  border: 1px solid transparent;
+  /* transparent это прозрачность*/
 }
 
 .nav__link:hover {
@@ -159,7 +191,8 @@ body {
 }
 
 .box__item {
-  flex-basis: 33.333%; /* ширина блоков */
+  flex-basis: 33.333%;
+  /* ширина блоков */
   padding: 0 60px 110px;
 }
 

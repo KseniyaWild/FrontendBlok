@@ -1,108 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lesson 1</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <div class="wrapper">
-          <div class="nav-top">
-            <ul class="info info-left">
-              <li class="info__item">
-                Have any questions?
-              </li>
-              <li class="info__item">
-                <a class="info__link" href="mailto:support@example.com">support@example.com</a>
-              </li>
-              <li class="info__item">
-                <a class="info__link" href="tel:+1814251152">+1 814 251 152</a>
-              </li>
-            </ul>
-            <ul class="info info-right">
-              <li class="info__item">
-                <a class="info__link" href="#">
-                  Login
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lesson 1</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600,700,800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="wrapper">
+        <div class="nav-top">
+          <ul class="info info-left">
+            <li class="info__item">
+              Have any questions?
+            </li>
+            <li class="info__item">
+              <a class="info__link" href="mailto:support@example.com"><i class="fas fa-envelope"></i>
+                support@example.com</a>
+            </li>
+            <li class="info__item">
+              <a class="info__link" href="tel:+1814251152"><i class="fas fa-phone-alt"></i>+1 814 251 152</a>
+            </li>
+          </ul>
+          <ul class="info info-right">
+            <li class="info__item">
+              <a class="info__link" href="#"><i class="fas fa-sign-out-alt"></i>
+                Login
+              </a>
+            </li>
+            <li class="info__item">
+              <a class="info__link registr" href="#">
+                Register
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="head">
+          <img class="logo" src="img/logo-main.svg" alt="StepUp" />
+          <nav>
+            <ul class="nav">
+              <li class="nav__item">
+                <a class="nav__link active" href="">
+                  Home
                 </a>
               </li>
-              <li class="info__item">
-                <a class="info__link" href="#">
-                  Register
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Page
                 </a>
               </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Portfolio
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Blog
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Shop
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Shortcodes
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Features
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">
+                  Contact
+                </a>
+              </li>
+              <li class="nav-item-btn">
+                <button class="nav-btn"><i class="fas fa-search"></i></button>
+              </li>
+              <li class="nav-item-btn">
+                <button class="nav-btn"><i class="fas fa-share-alt"></i></button>
+              </li>
             </ul>
-          </div>
-          <div class="head">
-            <img src="img/logo.png" alt="StepUp" />
-            <nav>
-              <ul class="nav" >
-                <li class="nav__item">
-                  <a class="nav__link active" href="">
-                    Home
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Page
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Portfolio
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Blog
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Shop
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Shortcodes
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Features
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a class="nav__link" href="">
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <button></button>
-                </li>
-                <li>
-                  <button></button>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="element element-top"></div>
-          <div class="main-title">
-            <p>Quickly Setup Your Website</p>
-            <h1>Stepup is designed specially for Startups</h1>
-            <div class="element element-bottom"></div>
-          </div>
-          <p class="center">
-            <a class="btn" href="#">
-              Buy now !
-            </a>
-          </p>
-          <!--<form action="">
+          </nav>
+        </div>
+        <div class="element element-top"></div>
+        <div class="main-title">
+          <p>Quickly Setup Your Website</p>
+          <h1>Stepup is designed specially for Startups</h1>
+          <div class="element element-bottom"></div>
+        </div>
+        <p class="center">
+          <a class="btn" href="#">
+            Buy now !
+          </a>
+        </p>
+        <!--<form action="">
             <label for="">Имя</label>
             (тег для чего конкретно инпут (заголовок)) 
             <input type="text" />
@@ -114,71 +119,77 @@
             <textarea name="" id=""></textarea>
             <button type="submit">Отправить!</button>
           </form> -->
-        </div>
       </div>
-    </header>
-    <main>
-      <div class="page page-line">
-        <div class="wrapper">
-          <div class="box center">
-            <div class="box__item">
-              <h2>100% Responsive Design</h2>
-              <p class="box__text text">
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                velit auctor aliquet. Aenean sollicitudin.
-              </p>
-            </div>
-            <div class="box__item box__item_center">
-              <h2>Unlimited Features</h2>
-              <p class="box__text text">
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                velit auctor aliquet. Aenean sollicitudin.
-              </p>
-            </div>
-            <div class="box__item">
-              <h2>Fully Customizable</h2>
-              <p class="box__text text">
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                velit auctor aliquet. Aenean sollicitudin.
-              </p>
-            </div>
+    </div>
+  </header>
+  <main>
+    <div class="page page-line">
+      <div class="wrapper">
+        <div class="box center">
+          <div class="box__item">
+            <h2>100% Responsive Design</h2>
+            <p class="box__text text">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+              vel velit auctor aliquet. Aenean sollicitudin.
+            </p>
+          </div>
+          <div class="box__item box__item_center">
+            <h2>Unlimited Features</h2>
+            <p class="box__text text">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+              vel velit auctor aliquet. Aenean sollicitudin.
+            </p>
+          </div>
+          <div class="box__item">
+            <h2>Fully Customizable</h2>
+            <p class="box__text text">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+              vel velit auctor aliquet. Aenean sollicitudin.
+            </p>
           </div>
         </div>
       </div>
-      <div class="wrapper">
-        <div class="company">
-          <h2 class="company__title"><span>About Our Company</span>Who We Are?</h2>
-          <div class="line"></div>
-          <p class="company__text text">
-            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-            amet mauris.
-          </p>
-          <p class="company__text text">
-            Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
-            taciti sociosqu ad litora torquent per conubia nostra, per inceptos.
-          </p>
-          <ul>
-            <li class="company__list">
-              Simplify compelling innovation and long-term high.
-            </li>
-            <li class="company__list">
-              Quickly streamline focused deliverables whereas progressive.
-            </li>
-          </ul>
-          <a href="#">Read More</a>
-        </div>
-        <img src="img/mockup.png" alt="gadgets" />
+    </div>
+    <div class="wrapper">
+      <div class="company">
+        <h2 class="company__title">
+          <span>About Our Company</span>Who We Are?
+        </h2>
+        <div class="line"></div>
+        <p class="company__text text">
+          Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+          lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+          sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+          amet mauris.
+        </p>
+        <p class="company__text text">
+          Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+          taciti sociosqu ad litora torquent per conubia nostra, per inceptos.
+        </p>
+        <ul>
+          <li class="company__list">
+            Simplify compelling innovation and long-term high.
+          </li>
+          <li class="company__list">
+            Quickly streamline focused deliverables whereas progressive.
+          </li>
+        </ul>
+        <a href="#">Read More</a>
       </div>
-    </main>
-    <section class="wrapper portfolio">
-      <h2 class="portfolio__title"><span>See Portfolio</span>Recent Works</h2>
-      <div></div>
-      <p class="portfolio__text text">
-        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.
-      </p>
-    </section>
-    <footer></footer>
-  </body>
+      <img src="img/mockup.png" alt="gadgets" />
+    </div>
+  </main>
+  <section class="wrapper portfolio">
+    <h2 class="portfolio__title"><span>See Portfolio</span>Recent Works</h2>
+    <div></div>
+    <p class="portfolio__text text">
+      Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+      quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+      id elit. Duis sed odio sit amet nibh vulputate cursus.
+    </p>
+  </section>
+  <footer></footer>
+</body>
+<script src="js/all.min.js"></script>
+
 </html>
