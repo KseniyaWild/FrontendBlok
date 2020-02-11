@@ -11,6 +11,10 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  margin-bottom: 14px;
+}
+
 .header {
   background-image: url(../img/bg.jpg);
   padding-bottom: 214px;
@@ -259,6 +263,7 @@ body {
 
 .text {
   color: #707070;
+  line-height: 26px;
 }
 
 .page-mockup {
@@ -336,5 +341,96 @@ body {
   transition: all .5s ease;
 }
 
+.portfolio .text {
+  max-width: 690px;
+  margin: 0 auto;
+}
 
+.portfolio__img {
+  width: 90px;
+  height: 14px;
+  display: block;
+  background-image: url(../img/Line-center.svg);
+  background-repeat: no-repeat;
+  margin: auto;
+}
 
+.portfolio__img {
+  margin-bottom: 21px;
+}
+
+.photo {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.photo-item {
+  height: 350px;
+  overflow: hidden; /* чтобы картинки не вылезали */
+  flex-basis: 20%; /* количесто картинок из 100% (было 5)  */
+  position: relative;
+}
+
+.photo-item img {
+  width: 100%;
+  position: absolute; /*можно ставить любую высоту,а изображения будут трансформироваться как это нам необходимо*/
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /*чтобы изображения так или иначе оставались в центре экрана*/
+  object-fit: cover;
+  height: 350px;
+  z-index: -1;
+}
+
+.photo-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: calc(50% - 30px);
+  display: none;
+}
+
+.photo-text p {
+  color: #707070;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.photo-item:hover {
+  background-color: rgba(34,34,34,0.8);
+  transition: all .5s ease;
+}
+
+.photo-item:hover .photo-text {
+  display: block;
+}
+
+.photo-btn {
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+  display: none;
+}
+
+.photo-btn a {
+  background: #fff;
+  color: #222;
+  padding: 18px 20px;
+}
+
+.photo-btn a:hover {
+  background: #30a3f0;
+  color: #fff;
+}
+
+.photo-item:hover .photo-btn {
+  display: block;
+}
