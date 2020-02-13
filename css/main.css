@@ -217,13 +217,25 @@ h2 {
   color: #222;
   background-position: center center;
   margin: 0 auto 26px;
-  line-height: 3.5 ;
+  line-height: 3.5;
 }
 
 .box-icon-pen {
   font-size: 30px;
   line-height: 4.8;
 }
+
+.box-icon-min {
+  font-size: 24px;
+  width: 96px;
+  height: 96px;
+  background-size: 96px 96px;
+  flex-basis: 96px;
+  text-align: center;
+  line-height: 3.8;
+  margin: initial;
+}
+
 
 .box__item:hover .box-icon {
   background-image: url(../img/blue.png);
@@ -394,7 +406,7 @@ h2 {
   color: #707070;
 }
 
-h3 {
+.photo-text h3 {
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-weight: 700;
@@ -433,4 +445,40 @@ h3 {
 
 .photo-item:hover .photo-btn {
   display: block;
+}
+
+.grid {
+  padding: 123px 0;
+}
+
+.grid-line:hover .box-icon-min {
+  background-image: url(../img/blue-min.png);
+  background-repeat: no-repeat;
+}
+
+.grid-list {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 70px 50px; /* расстояние м.у блоками */
+}
+
+.grid-list h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 22px;
+  margin-top: 0;
+}
+.grid .text {
+  margin-bottom: 0;
+}
+
+.grid-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-line-text {
+  flex-basis: calc(100% - 126px)
 }
