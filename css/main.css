@@ -321,7 +321,6 @@ h2 {
   text-align: center;
   background: #fafafa;
   padding-top: 100px;
-  padding-bottom: 62px;
 }
 
 .mockup {
@@ -355,6 +354,22 @@ h2 {
   border: 1px solid #30a3f0;
 }
 
+.portfolio__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.portfolio__title span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #30a3f0;
+  display: block;
+  text-transform: none;
+  margin-bottom: 18px;
+}
+
 .portfolio .text,
 .page-team .text {
   max-width: 690px;
@@ -377,6 +392,7 @@ h2 {
 .photo {
   display: flex;
   padding-bottom: 30px;
+  margin-top: 62px;
 }
 
 .photo-item {
@@ -585,4 +601,41 @@ h2 {
 .team-social-item > a:hover {
   color: #fff;
   background-image: url(../img/blue-min.png);
+}
+
+.screen {
+  margin-top: 57px;
+}
+
+.page-stat {
+  background-color: #111;
+  color: #fff;
+  padding-top: 116px;
+  padding-bottom: 114px;
+}
+
+.box-stat {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.box-stat svg {
+  font-size: 60px;
+  color: #30a3f0;
+}
+
+.box-stat h3 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 36px;
+  margin-bottom: none;
+}
+
+.box-stat h3 span {
+  color: #707070;
+  font-weight: 400;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 24px;
 }
