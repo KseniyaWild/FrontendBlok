@@ -193,6 +193,11 @@ h2 {
   border-bottom: 1px solid #e4e4e4;
 }
 
+.page-companies {
+  background-color: #fdfdfd;
+  padding: 122px 0 120px;
+}
+
 .box {
   display: flex;
   border-left: 1px solid #e4e4e4;
@@ -375,6 +380,10 @@ h2 {
 .page-blog .text {
   max-width: 690px;
   margin: 0 auto;
+}
+
+.page-blog {
+  padding: 97px 0 100px;
 }
 
 .portfolio__img {
@@ -778,4 +787,109 @@ top: 90%; */
 
 .text-blog a span {
   margin-right: 10px;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companies-item {
+  background-image: url(../img/companies.png);
+  background-repeat: no-repeat;
+  height: 93px;
+  display: block;
+}
+
+.companies-one {
+  width: 118px;
+  flex-basis: 118px;
+  background-position: -17px center;
+}
+
+.companies-two {
+  width: 126px;
+  flex-basis: 126px;
+  background-position: -213px center;
+}
+
+.companies-three {
+  width: 101px;
+  flex-basis: 101px;
+  background-position: -422px center;
+}
+
+.companies-four {
+  width: 123px;
+  flex-basis: 123px;
+  background-position: -616px center;
+}
+
+.companies-five {
+  width: 92px;
+  flex-basis: 92px;
+  background-position: -832px center;
+}
+
+.companies-six {
+  width: 129px;
+  flex-basis: 129px;
+  background-position: -1013px center;
+}
+
+.footer {
+  background-color: #151515;
+}
+
+.btn-footer {
+  font-size: 26px;
+  width: 47px;
+  height: 34px;
+  background-color: #1a1a1a;
+  color: #707070;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-footer:focus {
+  outline: none;
+}
+
+.footer-bg {
+  background-color: #1a1a1a;
+  padding: 28px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, .3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-list > li {
+  padding-left: 24px;
+  margin-left: 22px;
+  border-left: 1px solid #3a3a3a;
+}
+
+.footer-list > li:first-child {
+  padding-left: 0;
+  margin-left: 0;
+  border-left: none;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .3);
 }
