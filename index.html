@@ -454,7 +454,7 @@
       </div>
     </div>
   </section>
-  <section class="portfolio">
+  <section class="portfolio portfolio-pages">
     <div class="wrapper">
       <h2 class="portfolio__title"><span>Website Mockup</span>Our Complete Pack</h2>
       <div class="portfolio__img"></div>
@@ -637,7 +637,7 @@
   </section>
   <footer>
     <div class="footer">
-      <button class="btn-footer" id="btn-up">
+      <button class="btn-footer" id="btnUp">
         <i class="fas fa-angle-double-up"></i>
       </button>
       <div class="footer-bg">
@@ -661,5 +661,17 @@
   </footer>
 </body>
 <script src="js/all.min.js"></script>
+<script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+</script>
+<script>
+  $('#btnUp').click(function(){
+    $('html').animate({
+      scrollTop: 0
+    }, 'slow');
+  });
+</script>
 
 </html>
